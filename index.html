@@ -7,33 +7,45 @@
     <title>THENETNINJA</title>
 </head>
 <body>
-<h1>THENETNINJA</h1>
+<header>
+<img src="/img/logo.png" alt="Fuck you"></header>
+   
+   
+  <form>
     <p>You are a...</p>
-    <form action="">
-        <input type="radio" name="male" id="male">
-        <option value="male">Male</option>
-        <input type="radio" name="male" id="male">
-        <option value="female">Female</option>
-    </form>
-    <p>Who is interested in...</p>
-    <form action="">
-      
-        <input type="checkbox" id="Web Development" name="Web Development">
-        <label for="Web Development">Web Development</label> <br>
-        <input type="checkbox" id="Photoshop" name="Photoshop">
-       <label for="Photoshop">Photoshop</label><br>
-        <input type="checkbox" id="Singing Madona Songs" name="Singing Madona Songs">
-        <label for="Singing Madona Songs">Singing Madona Songs</label><br>
-     
-    </form>
-    <fieldset>
-        <legend>Contact info</legend>
-    </fieldset>
-    <p>How would you like to be contacted?</p>
-    <select name="contact" id="contact">
-        <option value="email">By email</option>
-        <option value="phone">Phone number</option>
-    </select>
- <h2>Become a Ninja</h2>
+    <input type="radio" id="male" name="gender">
+<label for="male">Male</label>
+<br>
+<input type="radio" id="female" name="gender">
+<label for="female">Female</label>
+<p>Who is interested in...</p>
+<input type="checkbox" id="web" name="Interests">
+<label for="web">Web development</label>
+<br>
+<input type="checkbox" id="photoshop" name="Interests">
+<label for="photoshop">Photoshop</label>
+<br>
+<input type="checkbox" id="madona" name="Interests">
+<label for="madona">Singing Madona Songs</label>
+<fieldset>
+    <legend>Contact Info</legend>
+<input type="email" placeholder="Email" required>
+<span class="tick"></span>
+<input type="telephone" placeholder="Phone number" required>
+<span class="tick"></span>
+</fieldset>
+<p>How would you like to be contacted?</p>
+<select>
+    <option>By email</option>
+    <option>By telephone</option>
+</select>
+<br>
+<br>
+<input type="submit" value="Become a Ninja">
+
+
+
+
+  </form>
 </body>
 </html>
