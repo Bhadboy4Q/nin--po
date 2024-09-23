@@ -68,21 +68,9 @@ label[for="male"], label[for="female"] {
     }input[type='telephone']{
         background-position: 9px -60px;
     }
-    /* option {
-        font-weight: normal;
-        display: block;
-        padding-block-start: 0px;
-        padding-block-end: 1px;
-        min-block-size: 1.2em;
-        padding-inline: 2px;
-        white-space: nowrap;
-    } */
+
     select {
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        -ms-appearance: none;
-        -o-appearance: none;
-        appearance: none;
+     
         display: block;
         margin: 30px 0;
         padding: 10px 50px 10px 10px;
